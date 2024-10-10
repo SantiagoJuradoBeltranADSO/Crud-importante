@@ -1,0 +1,19 @@
+{
+"name": "sena/mvc-2696521",
+"authors": [
+{
+"name": "Santiago Jurado",
+"email": "sajb1367@gmail.com"
+
+
+}
+
+
+],
+"autoload": {
+    "psr-4": {
+        "sena\\": "app/"
+    }
+}
+
+}
