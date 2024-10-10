@@ -35,7 +35,9 @@ class Core {
         $url = filter_var($url, FILTER_SANITIZE_URL);
         $url = explode('/',$url);
     }
-
+    echo"<pre>";
+    print_r($url);
+    echo"</pre>";
     return $url;
 
  }

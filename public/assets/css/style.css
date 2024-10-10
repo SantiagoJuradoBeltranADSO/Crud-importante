@@ -1,4 +1,21 @@
 body{
     background-color: black;
-    color: aqua;
+    color: rgb(255, 255, 255);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 120px; /* 3 columnas de igual tamaño */
+    grid-template-rows: max-content;
+    border: 1px solid rgb(255, 255, 255); /* Borde blanco alrededor de la tabla */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.table div{
+border: solid 1px #fff;
+padding: 6px;
 }
